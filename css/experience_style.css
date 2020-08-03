@@ -1,11 +1,15 @@
 body{
 	margin: 0;
 	/* from CSS3 Patterns Gallery (leaverou.github.io)*/
-	background:
+	/*background:
 	linear-gradient(135deg, #a19d9d 21px, #b5b1b1 22px, #b5b1b1 24px, transparent 24px, transparent 67px, #b5b1b1 67px, #b5b1b1 69px, transparent 69px),
 	linear-gradient(225deg, #a19d9d 21px, #b5b1b1 22px, #b5b1b1 24px, transparent 24px, transparent 67px, #b5b1b1 67px, #b5b1b1 69px, transparent 69px)0 64px;
 	background-color:#a19d9d;
-	background-size: 64px 128px;
+	background-size: 64px 128px;*/
+	background-image: url('../img/flo_library.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000000;
 }
 
 a:link{
@@ -26,6 +30,7 @@ nav{
 section{
 	clear: both;
 	margin: 10pt;
+	padding: 5pt;
 }
 
 h1{
@@ -86,10 +91,9 @@ h1{
 
 #education div{
 	padding: 5pt;
-	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, .8);
 	white-space: nowrap;
 	flex-grow: 1;
-	border-radius: 20px;
 }
 
 #education div p{
