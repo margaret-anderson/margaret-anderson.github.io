@@ -4,6 +4,8 @@
 <head>
 	<title> Experience </title>
 	<link rel="stylesheet" href="../css/experience_style.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="../js/experience.js"></script>
 </head>
 
 <body>
@@ -11,7 +13,7 @@
  <nav>
   <ul class="nav">
     <li><a href="../html/contact_form.html"><h3>Contact</h3></a></li>
-    <li><a href="../html/skills.html"><h3>Awards</h3></a></li>
+    <li><a href="../html/skills.html"><h3>Skills/Hobbies</h3></a></li>
     <li><a href="../html/publications.html"><h3>Publications</h3></a></li>
     <li><a href="../html/work_experience.html" class="currentLink"><h3>Experience</h3></a></li>
     <li><a href="../index.html"><h3>Home</h3></a></li>
@@ -24,13 +26,15 @@
   		<div id="harvard">
   			<a href="https://www.harvard.edu"><img src="../img/harvard.png"/></a>
   			<p>
-     		<h2>
+     		 <h2>
       			Harvard University 
-     		</h2>
+     		 </h2>
        			PhD Physics est. 2026 <br/>
        			<em>Current position</em>
-      		</p>
-      		
+      	</p>
+        <div class="centered">
+          <a href="" id="h_det" class="details_button">&#8681 Details</a>
+        </div>
     	</div>
 		
     	<div id="caltech">
@@ -40,10 +44,22 @@
       			California Institute of Technology
       		</h2>
         		B.S. Physics and History 2020 <br/>
-        		GPA: 4.0
-      		</p> 
-      		
+            <br/>
+      	</p>
+        <div class= "centered">
+          <a href="" id="c_det" class="details_button">&#8681 Details</a>
+        </div>	
     	</div>
+       <div id="harvard_details" class="hide">
+        <p>
+          Coming Soon!
+        </p>
+       </div>
+       <div id="caltech_details" class="hide">
+        <p>
+          Coming Soon!
+        </p>
+       </div>
 	</section>
  </section>
 

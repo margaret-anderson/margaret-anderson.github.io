@@ -75,8 +75,24 @@ h1{
 	box-shadow: 5pt 5pt 5pt #000000;
 }
 
+.details_button{
+	color: #000000;
+	font-size: 20pt;
+}
+
+.centered{
+	text-align: center;
+}
+
+.hide{
+	visibility: hidden;
+}
+
 #education{
-	display: flex;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 20pt;
+	grid-row-gap: 3pt;
 	margin: 0;
 }
 
@@ -85,7 +101,6 @@ h1{
 }
 
 #caltech{
-	margin-left: 20pt;
 	min-width: 515px;
 }
 
@@ -93,7 +108,6 @@ h1{
 	padding: 5pt;
 	background-color: rgba(255, 255, 255, .8);
 	white-space: nowrap;
-	flex-grow: 1;
 }
 
 #education div p{
@@ -105,4 +119,12 @@ h1{
 	padding: 0;
 	margin: 0;
 	height: 100%;
+}
+
+#harvard_details{
+	margin: 0pt 10pt 0pt 10pt;
+}
+
+#caltech_details{
+	margin: 0pt 10pt 0pt 10pt;
 }
