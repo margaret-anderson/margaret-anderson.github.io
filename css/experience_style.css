@@ -110,6 +110,10 @@ h1{
 	white-space: nowrap;
 }
 
+#education div div{
+	background-color: transparent;
+}
+
 #education div p{
 	vertical-align: middle;
 }
@@ -127,4 +131,9 @@ h1{
 
 #caltech_details{
 	margin: 0pt 10pt 0pt 10pt;
+}
+
+.up{
+	position: relative;
+	top: -400px;
 }
