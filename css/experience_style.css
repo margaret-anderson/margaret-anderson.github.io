@@ -137,3 +137,56 @@ h1{
 	position: relative;
 	top: -400px;
 }
+
+#work_body{
+	background-color: rgba(255, 255, 255, .8);
+}
+
+#work_body ul{
+	width: 45%;
+	font-size: 16pt;
+	list-style-type: none;
+	text-indent: -10pt;
+}
+
+#work_body a.active_slide{
+	color: blue;
+}
+
+#work_body li{
+	padding: 3pt 0pt 3pt 0pt;
+}
+
+#work_body em{
+	color: #444444;
+}
+
+#work_body a{
+	color: black;
+}
+
+#work_body p{
+	width: 45%;
+	font-size: 14pt;
+}
+
+.work_slide{
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	border: solid;
+	padding: 0;
+}
+
+.work_slide img{
+	width: 100%;
+}
+
+.work_slide div{
+	padding: 5pt;
+}
+
+.start_hidden{
+	display: none;
+}
