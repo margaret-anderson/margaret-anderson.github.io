@@ -25,28 +25,28 @@ $(function(){
 		var link_name = $(e.target).attr('id');
 		switch (link_name){
 			case 'work1':
-				$('#slide1').slideToggle(500);
+				$('#slide1').show();
 				break;
 			case 'work2':
-				$('#slide2').slideToggle(500);
+				$('#slide2').show();
 				break;
 			case 'work3':
-				$('#slide3').slideToggle(500);
+				$('#slide3').show();
 				break;
 			case 'work4':
-				$('#slide4').slideToggle(500);
+				$('#slide4').show();
 				break;
 			case 'work5':
-				$('#slide5').slideToggle(500);
+				$('#slide5').show();
 				break;
 			case 'work6':
-				$('#slide6').slideToggle(500);
+				$('#slide6').show();
 				break;
 			case 'work7':
-				$('#slide7').slideToggle(500);
+				$('#slide7').show();
 				break;
 			case 'work8':
-				$('#slide8').slideToggle(500);
+				$('#slide8').show();
 				break;
 		}
 		
