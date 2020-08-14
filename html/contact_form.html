@@ -3,7 +3,7 @@
 
 <head>
 	<title> Contact Form </title>
-	<link rel="stylesheet" href="../css/resume_home_style.css">
+	<link rel="stylesheet" href="../css/contact_style.css">
 </head>
 
 <body>
@@ -18,10 +18,23 @@
    </ul>
  </nav>
 </section>
-
- 	<section style="margin-top: 90pt">
-	Under Construction
+	<div>
+ 	<section id="form">
+ 		<h1>Looking to drop a line? I'm happy to hear from you!</h1>
+		<form action="https://formspree.io/xgenqrze" method="POST">
+		<input type="hidden" name="_subject" value="Contact from personal website" />
+		<label>Name:</label>
+  		<input type="text" name="name" placeholder="Jane Doe" autofocus><br/>
+  		<label>Email address:</label>
+  		<input type="email" name="_replyto" placeholder="email@example.com" required /><br/>
+  		<label>Message:</label><br/>
+  		<textarea name="message" placeholder="Type your message" required></textarea><br/>
+  		<div>
+  		<button type="submit">Send</button>
+  		</div>
+		</form>
 	</section>
+	</div>
 </body>
 
 </html>
