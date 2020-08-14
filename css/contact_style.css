@@ -100,7 +100,7 @@ input:focus {
 textarea{
 	font-size: 15pt;
 	width: 100%;
-	height: 75pt;
+	height: 30vh;
 	border-radius: 4pt;
 	outline: none;
 	resize: none;
