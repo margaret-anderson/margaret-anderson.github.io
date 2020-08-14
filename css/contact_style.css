@@ -58,7 +58,9 @@ section{
 }
 
 .nav a.currentLink{
-	color: rgba(100, 100, 100, 1);
+	color: rgba(150, 150, 150, 1);
+	-webkit-text-stroke: .3pt white;
+	-moz-text-stroke: .3pt white;
 }
 
 h1{
