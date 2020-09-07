@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	/* from CSS3 Patterns Gallery (leaverou.github.io)*/
+	/*background:
+	linear-gradient(135deg, #a19d9d 21px, #b5b1b1 22px, #b5b1b1 24px, transparent 24px, transparent 67px, #b5b1b1 67px, #b5b1b1 69px, transparent 69px),
+	linear-gradient(225deg, #a19d9d 21px, #b5b1b1 22px, #b5b1b1 24px, transparent 24px, transparent 67px, #b5b1b1 67px, #b5b1b1 69px, transparent 69px)0 64px;
+	background-color:#a19d9d;
+	background-size: 64px 128px;*/
+	background-image: url('../img/ceiling.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000000;
+}
+
+a:link{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	opacity: .4;
+}
+
+nav{
+	background-color: transparent;
+	width: 100vw;
+	margin: 0;
+}
+
+section{
+	clear: both;
+	margin: 10pt;
+	padding: 5pt;
+}
+
+h1{
+	font-size: 50pt;
+	color: #FFFFFF;
+}
+
+.nav{
+	list-style-type: none;
+	margin-top: 10pt;
+	padding: 0pt;
+	float: right;
+
+}
+
+.nav li{
+	display: inline;
+	float: right;
+}
+
+.nav li:first-child{
+	padding-right: 20pt;
+}
+
+.nav a{
+	display: block;
+	padding: 8pt;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.nav a.currentLink{
+	color: rgba(100, 100, 100, 1);
+}
+
+.shadow_text{
+	text-shadow: 5pt 5pt 5pt #000000;
+	margin: 0;
+}
+
+section section{
+	background-color: rgba(255,255,255,.8);
+	padding: 12pt;
+	margin-bottom: 50pt;
+	/*max-width: 1000px;*/
+}
+
+section section h2{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+#thesis_link{
+	color: black;
+}
